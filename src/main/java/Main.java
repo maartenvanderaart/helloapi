@@ -5,7 +5,7 @@ import static spark.Spark.*;
 
 public class Main {
     public static void main(String[] args) {
-        port(80);
+        port(5000);
         get("/", (req, res) -> "Hello Cloudy \n");
     }
 }
